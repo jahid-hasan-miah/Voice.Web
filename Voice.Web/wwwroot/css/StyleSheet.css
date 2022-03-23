@@ -1,0 +1,10 @@
+﻿@page {
+    size: A4 landscape;
+    margin: auto;
+}
+
+@media print {
+    .fst, table, td, th,div {
+        -webkit-print-color-adjust: exact !important;
+    }
+}
